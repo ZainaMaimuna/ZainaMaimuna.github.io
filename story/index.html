@@ -2,88 +2,96 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Zaina|Stories</title>
+        <title>New webpage</title>
     </head>
     <style>
-    body{
-        font-family:times;
-        background:white;
-        margin:0;
-        padding:0;
-    }
-        h1 a:link, a:visited{
-            color:white;
-            background:maroon;
-            text-decoration:none;
-            padding:2%;
-        }
-        h1 a:hover{
-            background:crimson;
-        }
-        h2{
-            padding:3%;
-            font-size:650%;
-            text-align:center;
-            font-family:"times", "cursive";
-        }
-        .caption{
-            font-size:15px;
-        }
-        p{
-            font-size:20px;
-            padding:3.5%;
-        }
-        .center{
-            text-align:center;
-        }
-        .bigemoji{
-            font-size:100px;
-        }
-        .caption, .medium{
-            font-size:30px;
+        body{
+            background:rgba(255, 255, 255,25%);
+            font-family:cursive;
             padding:0;
             margin:0;
-            padding-left:2.5%;
         }
-        li a:link, a:visited{
-            font-size:40px;
-            color:blue;
+        h1 a:link, a:visited{
+            background:rgba(250, 255, 99);
             text-decoration:none;
+            color:maroon;
+            padding:2.5%;
+            margin:2%;
+            text-align:center;
         }
-        li a:hover{
+        #h1{
+            text-align:center;
+            margin-bottom:5%;
+        }
+        a:link{
             color:blue;
-            text-decoration:underline;
+        }
+        h1{
+            margin:0;
+            margin-top:2%;
+            padding:0px;
+            background:maroon;
+            height:5px;
+        }
+        h1{
+            margin:0;
+            margin-top:2%;
+            padding:0px;
+            background:maroon;
+            height:5px;
+        }
+        h2{
+            text-align:center;
+            font-family:times;
+            font-size:4em;
+            margin-top:20%;
         }
         li{
-            background:rgb(197, 186, 242);
-            float:left;
-            padding:3%;
-            border:15px ridge indigo;
-        }
-        ul{
             list-style:none;
+            float:left;
         }
-        h3{
+        #booklist a:link, a:visited{
+            font-size:2.5em;
+            color:rgb(237, 173, 237);
+            background:indigo;
+            padding:5.9%;
+            margin:0em;
+            border:20px ridge rgba(176, 196, 255,0.5);
+            float:left;
+            text-decoration:none;
+            font-family:times;
+            width:111%;
+            max-width:5em;
+            overflow:hidden;
+            margin-left:-1em;
+            margin-right:2.5em;
+        }
+        #booklist a:hover{
+            background:rgba(176, 196, 255,0.5);
+            color:purple;
+            border:20px ridge rgba(191, 171, 255);
+        }
+        #footer{
+            background:rgba(141, 224, 141,1.5);
             clear:both;
-            text-align:center;
-            padding:3%;
-            padding-bottom:1%;
+            padding:5%;
+            margin-top:30%;
+            margin-bottom:0;
+            color:rgb(0, 87, 62);
+            font-family:"times", "calibri";
+            font-size:1.5em;
         }
-        h1: a:link, a:visited{
-            color:white;
+        #footerlink{
+            color:blue;
         }
-        
     </style>
     <body>
-   <h1><a href="https://zainamaimuna.github.io">HOME</a></h1>
-   <h2>Stories</h2>
-   <p class="caption, medium"><strong>Check out these must-reads!</strong></p>
-   <p class="center">Have fun!<span class="bigemoji">😊</span>
-   </p>
-   <ul>
-       <li><a href="https://zainamaimuna.github.io/theclone/">The Clone</a></li>
-       <li><a href="https://zainamaimuna.github.io/thefakeemergency/">The Fake Emergency</a></li>
-   </ul>
-   <h3 class="bigemoji">📚</h3>
+    <h1 id="h1"><a href="https://zainamaimuna.github.io">HOME</a></h1>
+    <h2>Stories</h2>
+    <ul id="booklist">
+        <li><a href="https://zainamaimuna.github.io/theclone">The Clone</a></li>
+        <li><a href="https://zainamaimuna.github.io/thefakeemergency">The Fake Emergency</a></li>
+    </ul><br>
+<p id="footer"><a  id="footerlink" href="https://github.com/ZainaMaimuna">Click here</a> to view my account.</p>
     </body>
 </html>
